@@ -120,6 +120,13 @@
       "price": 0.1,
       "defaultToken": 500,
       "maxToken": 1800
+    },
+    {
+      "model": "m3ehome",
+      "name": "M3E（home）",
+      "price": 0.1,
+      "defaultToken": 500,
+      "maxToken": 1800
     }
   ],
   "reRankModels": [],

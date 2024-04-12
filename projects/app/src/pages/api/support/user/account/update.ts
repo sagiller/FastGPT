@@ -22,6 +22,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     // auth key
     if (openaiAccount?.key) {
       console.log('auth user openai key', openaiAccount?.key);
+      console.log('');
       const baseUrl = openaiAccount?.baseUrl || openaiBaseUrl;
       openaiAccount.baseUrl = baseUrl;
 

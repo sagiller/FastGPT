@@ -5,7 +5,7 @@ const path = require('path');
 const nextConfig = {
   i18n,
   output: 'standalone',
-  reactStrictMode: process.env.NODE_ENV === 'development' ? false : true,
+  reactStrictMode: process.env.NODE_ENV !== 'development',
   compress: true,
   webpack(config, { isServer }) {
     if (!isServer) {
